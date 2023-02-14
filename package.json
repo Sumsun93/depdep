@@ -3,15 +3,19 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://sumsun93.github.io/depdep",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@types/google-spreadsheet": "^3.3.1",
     "@types/react-lottie": "^1.2.6",
     "@types/styled-components": "^5.1.26",
+    "gh-pages": "^5.0.0",
     "google-spreadsheet": "^3.3.0",
     "html2canvas": "^1.4.1",
     "prop-types": "^15.8.1",

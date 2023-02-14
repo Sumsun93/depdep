@@ -18,7 +18,7 @@ const Container = styled.div`
     position: relative;
     background-color: #ffb0b0;
     min-height: 100vh;
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;

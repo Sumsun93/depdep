@@ -39,6 +39,7 @@ const SignUp = () => {
         <Container>
             <Background />
             <Content>
+                {/* @ts-ignore */}
                 <div ref={printRef}>
                     <Card
                         style={{
@@ -172,8 +173,4 @@ const Button = styled.button`
       background-color: #ffb0b0;
         color: white;
     }
-`;
-
-const CardContainer = styled.img`
-    width: 600px;
 `;
